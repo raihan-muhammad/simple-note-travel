@@ -16,6 +16,8 @@ body {
   color: #3d3d3d;
   font-family: "Quicksand";
   font-weight: 500;
+  max-width: 1250px;
+  margin: auto;
 }
 
 .app {
@@ -61,10 +63,9 @@ h3 {
 button,
 select,
 input {
-  background-color: #ffebb3;
+  border: 1px solid #61dafc;
   color: #5a3e2b;
   font-family: inherit;
-  border: none;
   border-radius: 10rem;
   padding: 1.2rem 3.2rem;
   font-weight: 700;
@@ -74,12 +75,12 @@ input {
 
 .add-form button {
   text-transform: uppercase;
-  background-color: #76c7ad;
+  background-color: #61dafc;
+  color: #fff;
 }
 
 .list {
   padding: 4rem 0;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -98,7 +99,7 @@ input {
 
 .list ul {
   list-style: none;
-  width: 80%;
+  width: 65%;
   overflow: scroll;
 
   display: grid;
