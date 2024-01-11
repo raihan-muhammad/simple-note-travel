@@ -97,6 +97,11 @@ input {
   margin: 0 0.8rem;
 }
 
+.actions button {
+  background-color: #61dafc;
+  color: #fff;
+}
+
 .list ul {
   list-style: none;
   width: 65%;
